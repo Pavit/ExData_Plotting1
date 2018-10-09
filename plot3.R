@@ -1,7 +1,7 @@
 # This function reads data from household_power_consumption.txt
 # and, using a subset of power consumption data from 2/1/07 to 2/2/07,
-# it creates a line chart showing global active power by day in kilowatts
-# for each of the three energy sub readings
+# it creates a line chart showing each of the three sub_meterings
+# by day
 
 plot3 <- function() {
   
